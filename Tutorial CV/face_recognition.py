@@ -26,7 +26,7 @@ def resize_and_flatten(face, size=(100, 100)):
 
 # Memuat dataset
 print("Memuat dataset...")
-dataset_dir = 'C:\\Users\\Asus\\Documents\\Tutorial CV\\dataset (1)'  # Ganti dengan path ke folder dataset Anda
+dataset_dir = 'C:\\Users\\Asus\\Documents\\Tutorial CV\\dataset (1)'  
 images = []
 labels = []
 for root, dirs, files in os.walk(dataset_dir):
@@ -125,10 +125,10 @@ face_size = (128, 128)  # Ukuran yang sama dengan yang digunakan saat meratakan 
 
 for i, ax in enumerate(axes.flat): 
     if i < n_components:  # Pastikan tidak melebihi jumlah komponen
-        ax.imshow(eigenfaces[i].reshape(face_size), cmap='gray')  # Ganti dengan ukuran yang sesuai
+        ax.imshow(eigenfaces[i].reshape(face_size), cmap='gray')  
         ax.set_title(f'Eigenface {i+1}') 
     else:
-        ax.axis('off')  # Matikan sumbu jika tidak ada eigenface yang ditampilkan
+        ax.axis('off')  
 
 plt.tight_layout()
 plt.show()
