@@ -32,6 +32,7 @@ Kumpulkan gambar wajah dari beberapa individu dan simpan dalam folder terpisah s
 Setelah menyiapkan dataset, buka terminal atau command prompt dan navigasikan ke direktori proyek.
 
 Jalankan skrip dengan perintah berikut:
+
 python face_recognition.py
 
 3. Penggunaan:
@@ -42,7 +43,7 @@ Tekan 'q' untuk keluar dari aplikasi saat jendela pengenalan wajah terbuka.
 
 Proyek ini juga menyertakan visualisasi Eigenfaces yang dihasilkan selama pelatihan model. Eigenfaces adalah representasi wajah yang digunakan untuk pengenalan wajah. Visualisasi ini akan ditampilkan setelah model dilatih.
 
-#Catatan
+# Catatan
 
 - Pastikan webcam berfungsi dengan baik sebelum menjalankan aplikasi.
 - Jika mengalami masalah dengan deteksi wajah, pastikan pencahayaan di sekitar cukup baik.
